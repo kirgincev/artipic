@@ -4353,11 +4353,11 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 @media (min-width: 768px) {
   .navbar-nav {
-    float: left;
+    float: right;
     margin: 0;
   }
   .navbar-nav > li {
-    float: left;
+    float: right;
   }
   .navbar-nav > li > a {
     padding-top: 15px;
@@ -6240,8 +6240,7 @@ button.close {
 .carousel-inner {
   position: relative;
   width: 100%;
-  overflow: hidden;
-}
+ }
 .carousel-inner > .item {
   position: relative;
   display: none;
@@ -6688,7 +6687,17 @@ button.close {
   }
 }
 @media (max-width: 767px) {
+
+  h1{
+    font-size: 30px;
+  }
+  .carousel-inner > .item > img {
+    margin-left: -45%;
+    max-width: 190%!important;
+   }
+
   .hidden-xs {
+
     display: none !important;
   }
 }
