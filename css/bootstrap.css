@@ -4,6 +4,9 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+
+
+
 html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
@@ -4357,7 +4360,10 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     margin: 0;
   }
   .navbar-nav > li {
+    margin-left: 30px;
     float: right;
+    text-align: center;
+    margin-top: 7px;
   }
   .navbar-nav > li > a {
     padding-top: 15px;
@@ -4604,7 +4610,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   color: #9d9d9d;
 }
 .navbar-inverse .navbar-nav > li > a {
-  color: #9d9d9d;
+
 }
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:focus {

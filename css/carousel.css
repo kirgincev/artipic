@@ -7,6 +7,25 @@ body {
   color: #5a5a5a;
 }
 
+.lernmore{
+  letter-spacing: 3px;
+    font-size: 32px;
+    text-align: center;
+    font-weight: 100;
+    border: 1px solid #337ab7;
+    width: 50%;
+    margin: auto;
+}
+
+.download{
+  border: 0px solid #fefefd;
+width: 250px;
+background: #b4df1f;
+ padding: 0px;
+border-radius: 30px;
+color: #1f1f1f!important;
+cursor: pointer;
+ }
 
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
@@ -26,11 +45,10 @@ body {
   padding-left: 0;
 }
 .navbar-wrapper .navbar {
-  padding-right: 15px;
-  padding-left: 15px;
-}
+  height: 65px;
+    border-radius: 4px;
+ }
 .navbar-wrapper .navbar .container {
-  width: auto;
 }
 
 
@@ -56,6 +74,9 @@ body {
   min-width: 100%;
  }
 
+.carousel-inner{
+  overflow: hidden;
+}
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
@@ -96,11 +117,14 @@ body {
 @media (min-width: 768px) {
   /* Navbar positioning foo */
   .navbar-wrapper {
-    margin-top: 20px;
+    width: 100%;
+    margin-left: 5%;
+    margin-top: 5px;
   }
   .navbar-wrapper .container {
-    padding-right: 15px;
-    padding-left: 15px;
+    width:90%;
+    position: fixed;
+
   }
   .navbar-wrapper .navbar {
     padding-right: 0;
