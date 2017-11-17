@@ -49,6 +49,10 @@ template {
   display: none;
 }
 a {
+  font-weight: 200;
+    font-size: 20px;
+    color: #337ab7;
+    text-decoration: none;
   background-color: transparent;
 }
 a:active,
@@ -1459,6 +1463,41 @@ dt {
 dd {
   margin-left: 0;
 }
+
+@media (min-width: 1004px) and (max-width: 1280px){
+body{
+  font-size: 16px!important;
+}
+
+  .col-md-5{
+    width: 50%;
+  }
+
+  li{
+    font-size: 16px!important;
+  }
+  a{
+    font-size: 16px;
+  }
+
+.navbar-nav > li {
+  margin-top: 10px!important;
+}
+
+.download{
+   height: 40px;
+}
+li{
+  font-size: 16px;
+}
+.navbar-nav > li > a{
+  padding-top: 10px!important;
+  padding-bottom: 0px!important;
+}
+
+}
+
+
 @media (min-width: 768px) {
   .dl-horizontal dt {
     float: left;
