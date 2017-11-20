@@ -85,7 +85,7 @@ cursor: pointer;
 }
 .marketing h2 {
   letter-spacing:1px;
-  font-weight: 300;
+  font-weight: 400;
 }
 .marketing .col-lg-4 p {
   margin-right: 10px;
@@ -139,8 +139,8 @@ cursor: pointer;
   }
 
   .featurette-heading {
-    color: red;
-    font-size: 70px;
+    color: #f168eb;
+    font-size: 60px;
   }
 }
 
