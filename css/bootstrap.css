@@ -1274,6 +1274,7 @@ h6 .small,
 }
 h1,
 .h1 {
+  font-weight: 300;
   font-size: 36px;
 }
 h2,
