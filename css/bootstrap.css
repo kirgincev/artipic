@@ -1470,6 +1470,11 @@ body{
   font-size: 16px!important;
 }
 
+.col-md-push-5{
+
+  left: 50%!important;
+}
+
   .col-md-5{
     width: 50%;
   }
