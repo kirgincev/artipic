@@ -1465,6 +1465,36 @@ dd {
   margin-left: 0;
 }
 
+@media screen and (max-width: 640px){
+  .col-md-4>img {
+      max-width: 92px!important;}
+
+
+}
+
+@media screen and (max-width: 1003px){
+
+.texth2{
+ white-space:nowrap;
+  
+}
+  .featurette-heading {
+     line-height: 1.4!important;
+   }
+
+  h4{
+        font-weight: 600!important;
+  }
+  .col-md-7{
+    margin-left: 10px;
+    margin-right: 5px;
+  }
+  .featurette-heading{
+    color: #4c85c3;
+  }
+
+}
+
 @media (min-width: 1004px) and (max-width: 1280px){
 body{
   font-size: 16px!important;
